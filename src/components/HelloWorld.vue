@@ -2,8 +2,8 @@
  * @Author: 王伟斌
  * @Date: 2022-01-15 22:22:43
  * @LastEditors: 王伟斌
- * @LastEditTime: 2022-01-16 12:26:31
- * @FilePath: \20220115\src\components\HelloWorld.vue
+ * @LastEditTime: 2022-03-19 01:53:30
+ * @FilePath: \tablePagination\src\components\HelloWorld.vue
 -->
 <template>
   <div class="hello">
@@ -92,6 +92,7 @@ export default {
     handleSizeChange (val) {
       this.pageSize = val
       this.tableData = this.tableDataList.slice(0, val)
+      //
     }
   }
 }
